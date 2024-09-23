@@ -1,0 +1,401 @@
+Command: gz sim -r -s /home/plume/Desktop/test.sdf     Timestamp: 2024-09-19 16:37:05      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-19 16:37:05      Result: data: "test"
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.7701038983391886  y: -3.8489780792208483  z: -8.320558749941913}'      Timestamp: 2024-09-19 16:37:08      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.365819159279988  y: -2.8403991734200718  z: 7.466034838279938}'      Timestamp: 2024-09-19 16:37:08      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 9.967778812457727  y: 2.7795941848121295  z: 9.149876268161925}'      Timestamp: 2024-09-19 16:37:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 4.947480104490136  y: -4.423668020210519  z: 4.916683280714949}'      Timestamp: 2024-09-19 16:37:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.4477436270504072  y: -2.758305386031088  z: -8.666609106329648}'      Timestamp: 2024-09-19 16:37:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -1.906363116673237  y: -6.01744190644707  z: 3.5683607165659197}'      Timestamp: 2024-09-19 16:37:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.826345358520989  y: 8.733928454865566  z: 7.689618448605092}'      Timestamp: 2024-09-19 16:37:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.1555831974334012  y: -8.941975973223112  z: -8.239179461078141}'      Timestamp: 2024-09-19 16:37:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -7.393797533859454  y: -7.454784880428638  z: 7.013882719960705}'      Timestamp: 2024-09-19 16:37:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -4.286517619717052  y: 8.655937340093082  z: -0.7013235212165547}'      Timestamp: 2024-09-19 16:37:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -7.814885131513522  y: -9.405056236265644  z: -1.0478393647811437}'      Timestamp: 2024-09-19 16:37:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 6.79197718351935  y: -8.014510846227864  z: 1.0078674490603419}'      Timestamp: 2024-09-19 16:37:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 6.9609692259238685  y: -6.746436983428752  z: 2.79854376425752}'      Timestamp: 2024-09-19 16:37:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.078626683425778  y: 1.9361014602217157  z: 3.1090640551445716}'      Timestamp: 2024-09-19 16:37:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 0.704057606931169  y: -7.355863176601421  z: 1.9514336260892762}'      Timestamp: 2024-09-19 16:37:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -3.8922463664706175  y: -3.4680038070252888  z: 2.948160607937689}'      Timestamp: 2024-09-19 16:37:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.1266328602233031  y: -8.589978438520912  z: 7.615573447736594}'      Timestamp: 2024-09-19 16:37:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.587759801560427  y: 4.656360211697164  z: -9.066956892320569}'      Timestamp: 2024-09-19 16:37:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 4.3333004273426425  y: -6.351793903748724  z: -3.207728763754849}'      Timestamp: 2024-09-19 16:37:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 2.703935247846154  y: -8.399498490925234  z: 8.597014583981057}'      Timestamp: 2024-09-19 16:37:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.398711051424058  y: -7.949523256669966  z: 4.985696009695541}'      Timestamp: 2024-09-19 16:37:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -4.588277295831857  y: -3.248296617265016  z: 7.9555655177868125}'      Timestamp: 2024-09-19 16:37:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 0.3837023227930203  y: -6.369524287952553  z: -2.2008663743509054}'      Timestamp: 2024-09-19 16:37:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -3.026033713545506  y: -0.6624656923295813  z: 2.653807996305744}'      Timestamp: 2024-09-19 16:37:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.807463412423795  y: 1.3026669521334036  z: 3.091169864707396}'      Timestamp: 2024-09-19 16:37:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -0.4181736144609971  y: -8.73207913838397  z: -1.1938895642843086}'      Timestamp: 2024-09-19 16:37:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.265809462480927  y: 0.1780451165190815  z: -3.350935316074846}'      Timestamp: 2024-09-19 16:37:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -4.4436148771243715  y: 2.855429954531587  z: -2.3641549232693286}'      Timestamp: 2024-09-19 16:37:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.290543405704616  y: 1.2435236959309108  z: 1.6908872470589582}'      Timestamp: 2024-09-19 16:37:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.241698535404074  y: -5.925423127057703  z: -9.885962044671064}'      Timestamp: 2024-09-19 16:37:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.015822496018849  y: -1.479121569667745  z: -7.762513768850752}'      Timestamp: 2024-09-19 16:37:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -0.6501687038532751  y: -8.88596898577257  z: 1.908554586624005}'      Timestamp: 2024-09-19 16:37:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.289731515757882  y: -5.300067564584916  z: -5.669918330709411}'      Timestamp: 2024-09-19 16:37:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -1.7844246316020236  y: -9.490808499571745  z: 2.536291615607846}'      Timestamp: 2024-09-19 16:37:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 4.103353367002079  y: -1.8314898074999526  z: -7.944197817488156}'      Timestamp: 2024-09-19 16:37:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 0.6055667404619847  y: 5.371829499715808  z: -5.99071840901471}'      Timestamp: 2024-09-19 16:37:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.767614207685958  y: 2.434878842606704  z: 5.8606746110604035}'      Timestamp: 2024-09-19 16:37:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -2.122012964891451  y: 6.26472060383794  z: -5.885177645590918}'      Timestamp: 2024-09-19 16:37:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -7.785604208922933  y: 1.0427745013155558  z: 8.133859007381247}'      Timestamp: 2024-09-19 16:37:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 7.356852836332518  y: -7.54464468500657  z: 8.357623332881396}'      Timestamp: 2024-09-19 16:37:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.3699068706187205  y: 1.683751884140312  z: 0.9441161156833253}'      Timestamp: 2024-09-19 16:37:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -1.1501510048061725  y: 8.078285553341487  z: -7.997848892048314}'      Timestamp: 2024-09-19 16:37:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 3.188509481941111  y: 2.745851410300755  z: 9.935457237782227}'      Timestamp: 2024-09-19 16:37:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -0.9777968053319324  y: 5.7682601406972935  z: 7.102748402176363}'      Timestamp: 2024-09-19 16:37:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 3.140794303109116  y: 7.0346070803973895  z: -0.8534491244819549}'      Timestamp: 2024-09-19 16:37:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.254527473859132  y: -6.72251344908386  z: -1.7756043420329135}'      Timestamp: 2024-09-19 16:37:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 5.312033537801566  y: -4.43253992257628  z: 9.888219610445002}'      Timestamp: 2024-09-19 16:37:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 4.7012137718119895  y: -9.62747815406905  z: 3.9385032670161397}'      Timestamp: 2024-09-19 16:37:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -7.5549949083781565  y: 6.080919922976136  z: 5.423556342185039}'      Timestamp: 2024-09-19 16:37:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.560784144714168  y: -2.154784466570434  z: -5.4885523561169425}'      Timestamp: 2024-09-19 16:37:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -1.166691675323765  y: 9.826299124690003  z: -3.905473589167716}'      Timestamp: 2024-09-19 16:37:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.023547178999802  y: -3.5000313870715827  z: -6.928494895005244}'      Timestamp: 2024-09-19 16:37:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 3.3209896331246647  y: -9.809811422003873  z: 8.686984459756502}'      Timestamp: 2024-09-19 16:37:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -2.9270873629370975  y: 6.717148321954404  z: -5.90801414278822}'      Timestamp: 2024-09-19 16:37:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.180061626016067  y: -5.0525796384223405  z: -0.976237950574907}'      Timestamp: 2024-09-19 16:37:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.241410266565564  y: 1.5510100495145487  z: -8.483879105955602}'      Timestamp: 2024-09-19 16:37:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 2.8412571886471696  y: -5.719752424738893  z: 6.753286155252177}'      Timestamp: 2024-09-19 16:37:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.866032769350408  y: -1.8671536196806588  z: -5.669911420749443}'      Timestamp: 2024-09-19 16:37:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -2.4157458075704286  y: 3.3592243604306162  z: -3.301016295626762}'      Timestamp: 2024-09-19 16:37:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -3.0105202224774903  y: -8.585667341248165  z: -6.162393437271064}'      Timestamp: 2024-09-19 16:37:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 6.521937393561458  y: -1.4790497859264171  z: -8.274071158444992}'      Timestamp: 2024-09-19 16:37:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -2.749470520474901  y: 3.3721848891132957  z: -8.695397598846021}'      Timestamp: 2024-09-19 16:37:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -6.141383311727124  y: 1.8306592244180582  z: -8.072154029275389}'      Timestamp: 2024-09-19 16:37:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 9.738069792641184  y: 8.79025998638122  z: -5.619897249214079}'      Timestamp: 2024-09-19 16:37:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 4.790539143235028  y: -2.624528168201965  z: 4.769795581784839}'      Timestamp: 2024-09-19 16:37:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 7.752791981174084  y: 6.161807218367333  z: -7.823002043894101}'      Timestamp: 2024-09-19 16:37:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -3.2172689796038583  y: 3.7945618076566223  z: 0.19964231561386647}'      Timestamp: 2024-09-19 16:37:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 5.522464831301692  y: 5.994083663020222  z: 5.90153340464923}'      Timestamp: 2024-09-19 16:37:27      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.84446479236856  y: -9.232806657460241  z: -6.564207416551016}'      Timestamp: 2024-09-19 16:37:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -0.12166179501070218  y: -5.604793846419396  z: 2.747060236675541}'      Timestamp: 2024-09-19 16:37:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.7738315535784128  y: -3.920569219950478  z: -8.8465428532847}'      Timestamp: 2024-09-19 16:37:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 3.9237225289041984  y: -9.431171444543958  z: 2.142849593205817}'      Timestamp: 2024-09-19 16:37:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.909297553620494  y: 1.1630387450493362  z: -2.7752755762920867}'      Timestamp: 2024-09-19 16:37:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.7584230653304793  y: -3.3854349271312785  z: -0.5709633250168604}'      Timestamp: 2024-09-19 16:37:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -8.384009234342267  y: 4.008301799969429  z: -2.1741879620268545}'      Timestamp: 2024-09-19 16:37:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.316891504968158  y: -2.571639886058115  z: 8.741274150601072}'      Timestamp: 2024-09-19 16:37:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 2.737516377576192  y: -0.19991910958319536  z: -2.97929323493181}'      Timestamp: 2024-09-19 16:37:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -5.412996666884043  y: 3.981023146131527  z: 2.2629888252083514}'      Timestamp: 2024-09-19 16:37:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 3.803252417446064  y: 9.764244426136578  z: 4.555855623972464}'      Timestamp: 2024-09-19 16:37:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -7.499103070508484  y: -6.353287029698437  z: 7.327576911694209}'      Timestamp: 2024-09-19 16:37:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.1640469312513897  y: 9.56620419401876  z: -7.076720358049304}'      Timestamp: 2024-09-19 16:37:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.373069144223464  y: -9.012389928271977  z: 3.688030322935374}'      Timestamp: 2024-09-19 16:37:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 5.646292413222426  y: -0.6822441445812029  z: 7.816744994823377}'      Timestamp: 2024-09-19 16:37:32      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.3129747052092  y: -4.865451564211254  z: -0.7653646208859932}'      Timestamp: 2024-09-19 16:37:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.82047302549108  y: 4.361547493350841  z: -3.298235742303941}'      Timestamp: 2024-09-19 16:37:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 4.678481100883918  y: -3.1793224357332717  z: -8.494140354998533}'      Timestamp: 2024-09-19 16:37:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 6.004395201694628  y: 3.70869754568961  z: 0.9806098105290921}'      Timestamp: 2024-09-19 16:37:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 5.74377981621512  y: 3.3308849455494958  z: 6.796599757568657}'      Timestamp: 2024-09-19 16:37:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 2.882878637269485  y: -2.5686422446369424  z: 4.345728616870739}'      Timestamp: 2024-09-19 16:37:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 9.147744661239212  y: 4.092274573548373  z: -6.4999872324132575}'      Timestamp: 2024-09-19 16:37:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.618507085930972  y: 8.996871273118757  z: -1.0749816458015289}'      Timestamp: 2024-09-19 16:37:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.743460804151983  y: 3.3521403773323186  z: -0.3119607416566126}'      Timestamp: 2024-09-19 16:37:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -9.531493922157892  y: -3.5384686214356176  z: -4.434231959476726}'      Timestamp: 2024-09-19 16:37:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.979710801281701  y: 7.9214881507127615  z: 5.552904026874108}'      Timestamp: 2024-09-19 16:37:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 1.835504974302502  y: -3.2829657411134594  z: 2.1049585076804576}'      Timestamp: 2024-09-19 16:37:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: -0.9658201855448585  y: -4.746299677543848  z: -4.283050682993206}'      Timestamp: 2024-09-19 16:37:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 6.534934330534945  y: 0.2807227707591906  z: 3.9654983927348475}'      Timestamp: 2024-09-19 16:37:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 2.038523845021354  y: 8.997985480121084  z: -7.761078453029178}'      Timestamp: 2024-09-19 16:37:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 3.472153895363295  y: -1.937089767466487  z: 6.969915985757073}'      Timestamp: 2024-09-19 16:37:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "sun"position {  x: 8.016983292208732  y: -9.392046074764924  z: -0.2715689079198942}'      Timestamp: 2024-09-19 16:37:37      Result: data: true
+
+
+----------------------------------------

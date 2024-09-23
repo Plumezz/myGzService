@@ -1,0 +1,397 @@
+Command: gz sim -r -s /home/plume/Desktop/test.sdf     Timestamp: 2024-09-19 16:41:09      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-19 16:41:10      Result: data: "test"
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.713953402374031  y: -4.64138812855521  z: 3.969235714392674}'      Timestamp: 2024-09-19 16:41:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -7.609821594040566  y: 8.383102706835658  z: -4.034516985435643}'      Timestamp: 2024-09-19 16:41:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -4.578197435899202  y: 4.805868738568135  z: 6.098920456029248}'      Timestamp: 2024-09-19 16:41:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.659687443248516  y: -0.38030304620493993  z: 3.790083817916498}'      Timestamp: 2024-09-19 16:41:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -6.657244423473814  y: 2.667122438691564  z: -7.070518295655854}'      Timestamp: 2024-09-19 16:41:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.919349113827355  y: 6.445212148996024  z: 1.2390607740837023}'      Timestamp: 2024-09-19 16:41:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.412585748492937  y: -8.873787286133542  z: 5.945255394446301}'      Timestamp: 2024-09-19 16:41:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.162515850673664  y: -3.2731156563284074  z: -3.1832583989717422}'      Timestamp: 2024-09-19 16:41:15      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.850826785720571  y: 9.27858956192846  z: -2.592308492984257}'      Timestamp: 2024-09-19 16:41:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.296575947837978  y: -8.026630445733582  z: 4.161688514672212}'      Timestamp: 2024-09-19 16:41:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.15000849909696612  y: 9.677935187649695  z: -4.269792410341761}'      Timestamp: 2024-09-19 16:41:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.353026052849383  y: 6.3688974784869465  z: 7.2032235373392695}'      Timestamp: 2024-09-19 16:41:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.4986818462759306  y: -2.4747944244815123  z: -6.100243835148764}'      Timestamp: 2024-09-19 16:41:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 4.0686630042202125  y: 9.816631583470933  z: -8.136040615497574}'      Timestamp: 2024-09-19 16:41:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 2.1996192627599616  y: 7.857921130389794  z: 7.611483267332474}'      Timestamp: 2024-09-19 16:41:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -7.304637851897131  y: 2.317581099016632  z: 1.8901258555772742}'      Timestamp: 2024-09-19 16:41:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.4637221002412542  y: -9.459180447381652  z: -4.9155157384756665}'      Timestamp: 2024-09-19 16:41:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.8453648533971485  y: -6.157779980283584  z: -1.5543731461048438}'      Timestamp: 2024-09-19 16:41:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -8.691376513523345  y: -1.3709227762535132  z: 0.09543119583426218}'      Timestamp: 2024-09-19 16:41:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.517012964613123  y: -4.937637806213084  z: 1.8743336635320453}'      Timestamp: 2024-09-19 16:41:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.345071708909746  y: 3.498345581426614  z: -4.6716657739879714}'      Timestamp: 2024-09-19 16:41:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.265471779301148  y: -0.2725671869858992  z: -5.443160587965403}'      Timestamp: 2024-09-19 16:41:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -4.763968234244384  y: -9.449527269187763  z: 1.552305793614261}'      Timestamp: 2024-09-19 16:41:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.0054163796741449  y: 2.175841766580305  z: 0.08873533480425877}'      Timestamp: 2024-09-19 16:41:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -8.833033162399184  y: -6.45033098867269  z: -4.528914357163796}'      Timestamp: 2024-09-19 16:41:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.7394810226050623  y: 1.0830735230008557  z: -7.527835772806841}'      Timestamp: 2024-09-19 16:41:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -4.897162803229946  y: -4.518732542954577  z: 5.257899289945421}'      Timestamp: 2024-09-19 16:41:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.9731372895325645  y: -9.684694969235444  z: -8.1493613556311}'      Timestamp: 2024-09-19 16:41:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.3732415412012973  y: 9.962924077028521  z: 8.471753005765162}'      Timestamp: 2024-09-19 16:41:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.0438304182173574  y: 3.8103927665919084  z: 8.3739606276772}'      Timestamp: 2024-09-19 16:41:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -6.057536837028213  y: 3.836289014449349  z: 4.0076277306090535}'      Timestamp: 2024-09-19 16:41:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.8168270554818964  y: 2.7382423018418063  z: -0.6261027510593067}'      Timestamp: 2024-09-19 16:41:22      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -2.4780270541896705  y: 0.29483171509342476  z: 1.8653896965290926}'      Timestamp: 2024-09-19 16:41:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.0530231888553061  y: 8.758638682626064  z: 4.087360931217843}'      Timestamp: 2024-09-19 16:41:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 5.771840861954637  y: 7.241706535880347  z: 1.5769751378745482}'      Timestamp: 2024-09-19 16:41:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.6995666271924286  y: -5.927684306697769  z: 6.1220039326268925}'      Timestamp: 2024-09-19 16:41:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.947170219273204  y: 0.7212983518576834  z: 9.705833090728952}'      Timestamp: 2024-09-19 16:41:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -2.8058067316380475  y: -1.2247523847027235  z: 9.317831062477076}'      Timestamp: 2024-09-19 16:41:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.947907102840924  y: 3.9169949323610975  z: -8.309929240687401}'      Timestamp: 2024-09-19 16:41:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.6285232967166685  y: 6.335348197571868  z: 2.0483158917750828}'      Timestamp: 2024-09-19 16:41:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 2.2474353310628388  y: 1.831894339443883  z: -3.103208436020381}'      Timestamp: 2024-09-19 16:41:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.337155745009806  y: 2.042880724945796  z: -4.927318677649081}'      Timestamp: 2024-09-19 16:41:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 2.3383196643948203  y: -4.234192348975549  z: 7.454371544965934}'      Timestamp: 2024-09-19 16:41:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.3249001961313116  y: -2.7707473536419336  z: 1.7061724771015747}'      Timestamp: 2024-09-19 16:41:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -2.6588371886758093  y: 7.481128883849927  z: -5.48140817099537}'      Timestamp: 2024-09-19 16:41:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 5.055339578193564  y: 5.73809057436705  z: 1.9424648559739506}'      Timestamp: 2024-09-19 16:41:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.911923221534572  y: -9.075010116682972  z: 2.500548342424768}'      Timestamp: 2024-09-19 16:41:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.734484699095775  y: -4.77277079362274  z: -6.19132229508547}'      Timestamp: 2024-09-19 16:41:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.1797512972800117  y: -7.0402218966890455  z: 4.6861340506334574}'      Timestamp: 2024-09-19 16:41:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.481678187577774  y: 4.365329374960044  z: -4.692965015463956}'      Timestamp: 2024-09-19 16:41:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 5.21694014401136  y: -6.526552114588293  z: -6.772919202133636}'      Timestamp: 2024-09-19 16:41:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 4.4052350398490425  y: 9.309298418775132  z: 1.6932992120366208}'      Timestamp: 2024-09-19 16:41:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.5517610178777215  y: 0.7791899416545345  z: 4.728236175420372}'      Timestamp: 2024-09-19 16:41:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.0099804419190743  y: 6.31139502019877  z: 8.160669144672145}'      Timestamp: 2024-09-19 16:41:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 5.741998867637086  y: -2.714767447960032  z: -3.383533609695948}'      Timestamp: 2024-09-19 16:41:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.4029762439441598  y: 4.846448936008667  z: 6.800673681268513}'      Timestamp: 2024-09-19 16:41:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.23439254341105453  y: 8.575089573493177  z: 5.233621691690233}'      Timestamp: 2024-09-19 16:41:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.736993054686833  y: -5.152091724936385  z: -2.710313660763612}'      Timestamp: 2024-09-19 16:41:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 4.569542836556783  y: 4.5730573043705505  z: 3.572176821186442}'      Timestamp: 2024-09-19 16:41:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -2.312741495184052  y: 9.311437562922503  z: 8.541137439085603}'      Timestamp: 2024-09-19 16:41:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.681295432367939  y: 7.8678431795560115  z: 9.579233792438163}'      Timestamp: 2024-09-19 16:41:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.5908788812776962  y: -9.221302907352008  z: -0.005237251336275506}'      Timestamp: 2024-09-19 16:41:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.2554533356943107  y: -3.9211215962169117  z: -5.005491171532103}'      Timestamp: 2024-09-19 16:41:31      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.807634294432258  y: -7.652644837686015  z: -1.1769388924339097}'      Timestamp: 2024-09-19 16:41:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.316557404507001  y: -4.855274840227766  z: -9.041643194966277}'      Timestamp: 2024-09-19 16:41:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.09043344919373  y: 3.210731478218271  z: -1.0513328597755809}'      Timestamp: 2024-09-19 16:41:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.8469873180330385  y: 0.7930812204694337  z: 4.675068489197173}'      Timestamp: 2024-09-19 16:41:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.771860450315674  y: 2.6006753215273264  z: -9.040542081630562}'      Timestamp: 2024-09-19 16:41:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.391731863433836  y: 3.312967382371175  z: 9.41454833594591}'      Timestamp: 2024-09-19 16:41:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.8908607008198146  y: 3.7013205267000675  z: -3.08833762888262}'      Timestamp: 2024-09-19 16:41:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.828383909063202  y: -2.421800492667126  z: 2.88654043633702}'      Timestamp: 2024-09-19 16:41:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 7.53244461802662  y: -6.197037000353369  z: -7.555416209919108}'      Timestamp: 2024-09-19 16:41:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.245669912148394  y: -6.652235138649636  z: -3.29537749682018}'      Timestamp: 2024-09-19 16:41:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.6189613052477974  y: -4.554490659330441  z: -9.64702168227455}'      Timestamp: 2024-09-19 16:41:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.7638437337128376  y: -7.962423507139189  z: -3.67216930374674}'      Timestamp: 2024-09-19 16:41:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 2.2279625175024247  y: 1.4245887930366745  z: -7.633467505443392}'      Timestamp: 2024-09-19 16:41:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.458615050317708  y: -2.657734522784869  z: -9.554518631168927}'      Timestamp: 2024-09-19 16:41:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.0838912952931317  y: 8.579471000235035  z: -0.17506495260393606}'      Timestamp: 2024-09-19 16:41:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.1849420188295383  y: -9.797113213463026  z: 5.5094788635696545}'      Timestamp: 2024-09-19 16:41:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.2381457279360024  y: 0.9063316018246574  z: -8.704325796347042}'      Timestamp: 2024-09-19 16:41:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -6.090042015355501  y: -8.389546531533657  z: 5.0036869748164285}'      Timestamp: 2024-09-19 16:41:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.850932409555659  y: -7.329647764353364  z: 7.8391880562134695}'      Timestamp: 2024-09-19 16:41:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 7.2230732139588625  y: -3.8941928224129185  z: -4.826993778124766}'      Timestamp: 2024-09-19 16:41:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -4.6984511537506135  y: -9.492979074647806  z: -0.8475608120403102}'      Timestamp: 2024-09-19 16:41:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.083130938253852  y: 9.007186398355294  z: 0.2643174564820647}'      Timestamp: 2024-09-19 16:41:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.764691106695519  y: 5.7418724173823215  z: -6.365329264456463}'      Timestamp: 2024-09-19 16:41:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.3755234637244484  y: -3.7026702687538426  z: 7.317275130391273}'      Timestamp: 2024-09-19 16:41:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.2636110916769905  y: 6.220097908660591  z: 9.042360341492326}'      Timestamp: 2024-09-19 16:41:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.494853536214171  y: 3.539613255870762  z: 2.915582016245761}'      Timestamp: 2024-09-19 16:41:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.3869181361663365  y: -8.606492087511695  z: 0.34597820204010965}'      Timestamp: 2024-09-19 16:41:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 2.425326444461092  y: -3.184231611030855  z: 0.8312451500532383}'      Timestamp: 2024-09-19 16:41:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -8.328589720153332  y: -8.844340647534883  z: 3.0233000393254876}'      Timestamp: 2024-09-19 16:41:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -6.610462539942312  y: -5.636126825801895  z: -9.051156157584298}'      Timestamp: 2024-09-19 16:41:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -4.328345248916179  y: 7.48207100827095  z: -6.027040712517016}'      Timestamp: 2024-09-19 16:41:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -8.558181647834019  y: 7.822100512635419  z: -1.8427903828478698}'      Timestamp: 2024-09-19 16:41:40      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.312083462610275  y: -4.137780961683973  z: -1.9534685440082171}'      Timestamp: 2024-09-19 16:41:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -2.3135745480639542  y: -9.918520031249793  z: -7.513640978672722}'      Timestamp: 2024-09-19 16:41:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -6.662234521399792  y: 1.7071866435954668  z: 9.069691822937749}'      Timestamp: 2024-09-19 16:41:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.780040675427449  y: -2.762272864316424  z: 2.2780076706669767}'      Timestamp: 2024-09-19 16:41:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.578053993959564  y: -4.903266610795189  z: -1.8676996589547095}'      Timestamp: 2024-09-19 16:41:42      Result: data: true
+
+
+----------------------------------------

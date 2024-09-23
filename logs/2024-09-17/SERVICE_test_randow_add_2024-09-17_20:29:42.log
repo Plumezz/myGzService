@@ -1,0 +1,100 @@
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:43      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n              <match field=\"data\">65</match>\n          </input>\n          \n<output type=\"gz.msgs.Twist\" topic=\"/cmd_vel\">\n              linear: {x: 0.0}, angular: {z: 0.5}\n          </output>\n      "
+}
+'     Timestamp: 2024-09-17 20:29:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:43      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n                    <match field=\"data\">67</match>\n                </input>\n                \n<output type=\"gz.msgs.Twist\" topic=\"/model/simple_tracked/cmd_vel\">\n                    linear: {x: -1.0}, angular: {z: -1.0}\n                </output>\n            "
+}
+'     Timestamp: 2024-09-17 20:29:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:43      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::DiffDrive"
+  filename: "gz-sim-diff-drive-system"
+  innerxml: "<left_joint>left_wheel_joint</left_joint>\n        \n<right_joint>right_wheel_joint</right_joint>\n        \n<wheel_separation>1.25</wheel_separation>\n        \n<wheel_radius>0.3</wheel_radius>\n        \n<max_linear_acceleration>1</max_linear_acceleration>\n        \n<min_linear_acceleration>-1</min_linear_acceleration>\n        \n<max_angular_acceleration>2</max_angular_acceleration>\n        \n<min_angular_acceleration>-2</min_angular_acceleration>\n        \n<max_linear_velocity>0.5</max_linear_velocity>\n        \n<min_linear_velocity>-0.5</min_linear_velocity>\n        \n<max_angular_velocity>1</max_angular_velocity>\n        \n<min_angular_velocity>-1</min_angular_velocity>\n      "
+}
+'     Timestamp: 2024-09-17 20:29:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:44      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::DetachableJoint"
+  filename: "gz-sim-detachable-joint-system"
+  innerxml: "<parent_link>chassis</parent_link>\n       \n<child_model>B3</child_model>\n       \n<child_link>body</child_link>\n       \n<detach_topic>/B3/detach</detach_topic>\n       \n<attach_topic>/B3/attach</attach_topic>\n       \n<output_topic>/B3/state</output_topic>\n      "
+}
+'     Timestamp: 2024-09-17 20:29:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:44      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n              <match field=\"data\">83</match>\n          </input>\n          \n<output type=\"gz.msgs.Twist\" topic=\"/cmd_vel\">\n              linear: {x: 0.0}, angular: {z: 0.0}\n          </output>\n      "
+}
+'     Timestamp: 2024-09-17 20:29:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:45      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr3</address>\n        \n<topic>addr3/rx</topic>\n      "
+}
+'     Timestamp: 2024-09-17 20:29:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:45      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::ApplyJointForce"
+  filename: "gz-sim-apply-joint-force-system"
+  innerxml: "<joint_name>propeller_joint</joint_name>\n      "
+}
+'     Timestamp: 2024-09-17 20:29:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:29:45      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------

@@ -1,0 +1,509 @@
+Command: gz sim -r -s /home/plume/Desktop/test.sdf     Timestamp: 2024-09-19 16:45:42      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-19 16:45:43      Result: data: "test"
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:46      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 2.630282959063459  y: 0.09270901678620902  z: 7.675427920672405}'      Timestamp: 2024-09-19 16:45:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:46      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.529910477316399  y: 8.745109734087755  z: -3.2450644537644946}'      Timestamp: 2024-09-19 16:45:47      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:47      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.59900826553288  y: 4.87967578634902  z: -2.6034805589987364}'      Timestamp: 2024-09-19 16:45:47      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:47      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.079103865431119  y: -2.9573448157890825  z: 3.663810379923735}'      Timestamp: 2024-09-19 16:45:48      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:48      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.180878717491302  y: -3.584691731264993  z: 6.158547585375111}'      Timestamp: 2024-09-19 16:45:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:48      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.997961005887451  y: 2.6588860304143864  z: 8.807485301383625}'      Timestamp: 2024-09-19 16:45:49      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:49      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.9876335987007483  y: 2.8881327815335673  z: 4.646395238556984}'      Timestamp: 2024-09-19 16:45:49      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:49      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -6.684591384167817  y: -3.618752167361965  z: -3.075487065156832}'      Timestamp: 2024-09-19 16:45:50      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:50      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.9093813658011598  y: 2.667449778144917  z: -7.438680292558519}'      Timestamp: 2024-09-19 16:45:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:50      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -8.305804701031258  y: 9.230820261881284  z: -0.3254700234941872}'      Timestamp: 2024-09-19 16:45:51      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:51      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.900857730775105  y: -9.827768290645276  z: 9.542602352664336}'      Timestamp: 2024-09-19 16:45:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:51      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.6907316764492855  y: -1.6469595191616921  z: -8.963312889285422}'      Timestamp: 2024-09-19 16:45:52      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:52      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.8274545719470154  y: -8.925119842828835  z: -6.087967308153129}'      Timestamp: 2024-09-19 16:45:52      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:52      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 7.525496172984035  y: -0.6809498247169365  z: 8.295633773133993}'      Timestamp: 2024-09-19 16:45:53      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:53      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.957774311009903  y: -5.074038761997901  z: 1.6337533998913027}'      Timestamp: 2024-09-19 16:45:53      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:53      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -0.7336697617898906  y: 1.043187386119584  z: -1.0162748341404342}'      Timestamp: 2024-09-19 16:45:54      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:54      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.2675594352616777  y: 4.426217780984894  z: 0.7147811069650718}'      Timestamp: 2024-09-19 16:45:54      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:54      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.171921907085075  y: -5.259900184828245  z: 2.111221984608541}'      Timestamp: 2024-09-19 16:45:55      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:55      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.866605407725217  y: 4.6048203530491385  z: -8.185400172199964}'      Timestamp: 2024-09-19 16:45:55      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:55      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -8.366739204255273  y: -8.217860805496462  z: 8.227765079512658}'      Timestamp: 2024-09-19 16:45:56      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:56      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 4.7647902056770075  y: -2.806666088542493  z: 2.8457092581995767}'      Timestamp: 2024-09-19 16:45:56      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:56      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.2012460051667588  y: 5.127000478064987  z: 4.011817873058366}'      Timestamp: 2024-09-19 16:45:57      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:57      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.2069577060719823  y: 7.566148551590722  z: -5.013367726280153}'      Timestamp: 2024-09-19 16:45:57      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:57      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 1.121822668954433  y: 3.0982494394814246  z: 4.650466011222731}'      Timestamp: 2024-09-19 16:45:58      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:58      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 5.5282096975078545  y: 8.978552411902449  z: 8.47372753610869}'      Timestamp: 2024-09-19 16:45:58      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:58      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.5809832063894342  y: -2.9603656935422906  z: 7.859545901103765}'      Timestamp: 2024-09-19 16:45:59      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:59      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 5.695014041264233  y: -6.182443137123639  z: 5.184068721593917}'      Timestamp: 2024-09-19 16:45:59      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:45:59      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 5.75051659613376  y: -6.405018985103359  z: 3.3746867534537888}'      Timestamp: 2024-09-19 16:46:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:00      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.774113027971524  y: 0.7450595235739108  z: -4.318954929509566}'      Timestamp: 2024-09-19 16:46:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:00      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.384967663099882  y: -9.466496694904771  z: -9.19030274910818}'      Timestamp: 2024-09-19 16:46:01      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:01      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -5.865545533368484  y: 1.6343056718680522  z: -8.967916406540512}'      Timestamp: 2024-09-19 16:46:01      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:01      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.1304455525210173  y: -6.942076523339102  z: 8.995172566547353}'      Timestamp: 2024-09-19 16:46:02      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:02      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.434197166965582  y: -8.14028114144654  z: 7.695105343133079}'      Timestamp: 2024-09-19 16:46:02      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:02      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.114137144191723  y: -6.4025737526535  z: 1.188530716261882}'      Timestamp: 2024-09-19 16:46:03      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:03      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -8.01747067569265  y: -3.683888633327898  z: -2.949506824689429}'      Timestamp: 2024-09-19 16:46:03      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:03      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -4.695195782733661  y: 0.9624162285478821  z: -9.78757252442268}'      Timestamp: 2024-09-19 16:46:04      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:04      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 1.6275352726658259  y: -9.36040508749085  z: -9.741529250113093}'      Timestamp: 2024-09-19 16:46:04      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:04      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -2.3359722227357826  y: 0.3307810806503362  z: -9.96231488799726}'      Timestamp: 2024-09-19 16:46:05      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:05      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.3663999727753726  y: -7.257406809388942  z: -2.129566664283196}'      Timestamp: 2024-09-19 16:46:05      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:05      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -7.531258817658202  y: -1.0062837434845058  z: -1.1102448603327542}'      Timestamp: 2024-09-19 16:46:06      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:06      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 1.8714521610351973  y: 4.584575192396251  z: -2.2145634278975717}'      Timestamp: 2024-09-19 16:46:06      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:06      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 6.270734607189937  y: 3.0287840161229127  z: 5.52195533871296}'      Timestamp: 2024-09-19 16:46:07      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:07      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -2.784636439493948  y: -2.599005940920951  z: 3.1439899914721465}'      Timestamp: 2024-09-19 16:46:07      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:07      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.5765538449021115  y: 9.91813699266704  z: 0.377593821290894}'      Timestamp: 2024-09-19 16:46:08      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:08      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -3.695823357400629  y: 9.18604982305293  z: 4.998524664371594}'      Timestamp: 2024-09-19 16:46:08      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:08      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 5.949719643233864  y: 9.750926948865214  z: -9.925790896135055}'      Timestamp: 2024-09-19 16:46:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:09      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 6.358497137822297  y: 0.24926561568703676  z: -5.766204967327195}'      Timestamp: 2024-09-19 16:46:09      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:09      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.1325377860630361  y: -3.1268399377001916  z: 8.799538129954001}'      Timestamp: 2024-09-19 16:46:10      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:10      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.777125144675825  y: 9.938515740895586  z: -5.817154355898233}'      Timestamp: 2024-09-19 16:46:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:10      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.463577921129831  y: 7.44202812777846  z: -2.8577115104238366}'      Timestamp: 2024-09-19 16:46:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:11      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 7.67213723796112  y: 7.271526994000318  z: 9.301032859996212}'      Timestamp: 2024-09-19 16:46:11      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:11      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.180873513490383  y: 7.629688106401062  z: -4.026172977265576}'      Timestamp: 2024-09-19 16:46:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:12      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 2.106008957812488  y: -9.744233869638105  z: 1.316134876941339}'      Timestamp: 2024-09-19 16:46:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:12      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 0.6109612417838406  y: -8.198828038694419  z: 2.5337192778451385}'      Timestamp: 2024-09-19 16:46:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:13      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -2.288991433203753  y: 9.805852107577984  z: -8.390196365314146}'      Timestamp: 2024-09-19 16:46:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:13      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 8.278717718790013  y: 0.5141161134789449  z: -6.301067518713424}'      Timestamp: 2024-09-19 16:46:14      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:14      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 4.3726437662113895  y: 1.8792723659374673  z: -0.08605225661992577}'      Timestamp: 2024-09-19 16:46:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:14      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.2447022896113147  y: 7.769705658187039  z: 4.264152915380448}'      Timestamp: 2024-09-19 16:46:15      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:15      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -7.818140235337636  y: -8.267436840340904  z: 0.535108916869099}'      Timestamp: 2024-09-19 16:46:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:15      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 4.86513966038091  y: 1.31982541608817  z: -4.184783113068571}'      Timestamp: 2024-09-19 16:46:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:16      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.5035151504694984  y: -3.0143779675055864  z: 6.804013206870231}'      Timestamp: 2024-09-19 16:46:16      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:16      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -4.273954791466483  y: -2.790400695181317  z: -4.0069750143888765}'      Timestamp: 2024-09-19 16:46:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:17      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.9625616976513207  y: -7.686278302512221  z: -0.8240274635713298}'      Timestamp: 2024-09-19 16:46:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:17      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.05387619218523  y: -0.8704989764781779  z: 9.319830977339741}'      Timestamp: 2024-09-19 16:46:18      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:18      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.0202095857204192  y: -0.6370238530901204  z: -0.8092428501968758}'      Timestamp: 2024-09-19 16:46:18      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:18      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.9350339062946453  y: 6.954769098801652  z: -7.151797996792306}'      Timestamp: 2024-09-19 16:46:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:19      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -4.648643490072255  y: 3.199108885123131  z: 7.701747681708735}'      Timestamp: 2024-09-19 16:46:19      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:19      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.92917566264305  y: -1.1309268789345204  z: 2.804881147503835}'      Timestamp: 2024-09-19 16:46:20      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:20      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -8.637492471676376  y: -8.60682212201278  z: 9.180266903116866}'      Timestamp: 2024-09-19 16:46:20      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:20      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 8.745731800895442  y: 9.294907111194327  z: 8.24045617185341}'      Timestamp: 2024-09-19 16:46:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:21      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -1.5676426111413804  y: -4.808640434440559  z: -0.9140351725496032}'      Timestamp: 2024-09-19 16:46:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:21      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.17443030089107125  y: -1.4882034429867446  z: 0.2926341047827137}'      Timestamp: 2024-09-19 16:46:22      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:22      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -5.448491185547637  y: -8.944662223794538  z: 0.9100157694491795}'      Timestamp: 2024-09-19 16:46:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:22      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -1.1037397965705722  y: -1.6714379733832967  z: 7.574896838852162}'      Timestamp: 2024-09-19 16:46:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:23      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 2.1824580899345207  y: -9.77855217281563  z: -0.3403435071691092}'      Timestamp: 2024-09-19 16:46:23      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:23      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.674856484730606  y: -3.597326672465919  z: -7.197942264319881}'      Timestamp: 2024-09-19 16:46:24      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:24      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.374681415779783  y: 3.064216384733097  z: -3.7899168552102687}'      Timestamp: 2024-09-19 16:46:24      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:24      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 9.791899857822003  y: 8.277434529121368  z: 0.9538770758430637}'      Timestamp: 2024-09-19 16:46:25      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:25      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: 3.2908049544609845  y: 0.6323695107944989  z: -4.7711291009281425}'      Timestamp: 2024-09-19 16:46:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:25      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.6141140829811604  y: -0.41123007276047474  z: 3.6892938312807306}'      Timestamp: 2024-09-19 16:46:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:26      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 8.645391995616848  y: -9.12525780576277  z: 1.1949728609563515}'      Timestamp: 2024-09-19 16:46:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:26      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.204426126257934  y: -5.289429093250693  z: 3.526496758492595}'      Timestamp: 2024-09-19 16:46:27      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:27      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -0.5119049457466378  y: 8.910413329674721  z: 8.574710299278244}'      Timestamp: 2024-09-19 16:46:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:27      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -9.637467634019181  y: -9.074833311415823  z: 1.6020434984831766}'      Timestamp: 2024-09-19 16:46:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:28      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 1.1202711409282955  y: -8.291667781522067  z: 3.0460717610818495}'      Timestamp: 2024-09-19 16:46:28      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:28      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -2.1609194568192835  y: 8.244357363528248  z: -7.158640875777202}'      Timestamp: 2024-09-19 16:46:29      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:29      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.67714521165027  y: -5.118755760970377  z: -7.370261688075388}'      Timestamp: 2024-09-19 16:46:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:29      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -6.1483543479622345  y: 3.0518100149404948  z: -3.1092882820342815}'      Timestamp: 2024-09-19 16:46:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:30      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -7.396923771020861  y: 6.441728563325281  z: -6.318193986043134}'      Timestamp: 2024-09-19 16:46:30      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:30      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -5.758672167681487  y: -5.3303724300139415  z: 7.416756423305934}'      Timestamp: 2024-09-19 16:46:31      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:31      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "ground_plane"position {  x: -3.0823588368875443  y: 1.7112907867883784  z: 6.863392990087181}'      Timestamp: 2024-09-19 16:46:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:31      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -1.5636045519418929  y: 9.011713299581604  z: -2.5738407576184947}'      Timestamp: 2024-09-19 16:46:32      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:32      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 5.037692731027006  y: 0.32348167658873983  z: 5.366853934605068}'      Timestamp: 2024-09-19 16:46:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:32      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 6.8394760038461975  y: 0.4485913611285657  z: -6.502205372636698}'      Timestamp: 2024-09-19 16:46:33      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:33      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 4.844612390533863  y: -3.865088081331831  z: 0.23993608312943238}'      Timestamp: 2024-09-19 16:46:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:33      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.08866855299302046  y: 0.3224654102655826  z: -9.204320937793717}'      Timestamp: 2024-09-19 16:46:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:34      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.281394750207802  y: 9.877803612317237  z: -3.507408596268373}'      Timestamp: 2024-09-19 16:46:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:34      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -6.9228396144235145  y: -0.5359633038757323  z: 2.9584704833303697}'      Timestamp: 2024-09-19 16:46:35      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:35      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -5.9111631010181  y: -2.7275054406111305  z: 7.2445424119781165}'      Timestamp: 2024-09-19 16:46:35      Result: 
+----------------------------------------
+Command: gz service -s /world/test/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:46:35      Result: {"ground_plane_4": ["link"], "vehicle_blue_8": ["base_link", "left_track", "left_track_wheel1", "left_track_wheel2", "left_track_wheel3", "left_track_wheel4", "left_track_wheel5", "left_track_wheel6", "left_track_wheel7", "left_track_wheel8", "right_track", "right_track_wheel1", "right_track_wheel2", "right_track_wheel3", "right_track_wheel4", "right_track_wheel5", "right_track_wheel6", "right_track_wheel7", "right_track_wheel8"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -3.459623822833504  y: 4.622396720694939  z: -0.22186780823484575}'      Timestamp: 2024-09-19 16:46:36      Result: 
+----------------------------------------

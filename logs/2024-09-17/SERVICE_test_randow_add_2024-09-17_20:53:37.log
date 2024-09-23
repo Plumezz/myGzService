@@ -1,0 +1,42 @@
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:53:40      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>rotor_joint</joint_name>\n        \n<topic>/model1/cmd_rotor</topic>\n        \n<p_gain>30</p_gain>\n        \n<i_gain>0.05</i_gain>\n      "
+}
+'     Timestamp: 2024-09-17 20:53:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:53:40      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr1</address>\n        \n<topic>addr1/rx</topic>\n      "
+}
+'     Timestamp: 2024-09-17 20:53:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:53:40      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::ApplyJointForce"
+  filename: "gz-sim-apply-joint-force-system"
+  innerxml: "<joint_name>propeller_joint</joint_name>\n      "
+}
+'     Timestamp: 2024-09-17 20:53:41      Result: data: true
+
+
+----------------------------------------

@@ -1,0 +1,240 @@
+Command: gz sim -r -s /home/plume/gazebo_maritime/worlds/buoyant_lrauv.sdf     Timestamp: 2024-09-18 15:48:00      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-18 15:48:00      Result: data: "buoyant_lrauv"
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:04      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n                    <match field=\"data\">69</match>\n                </input>\n                \n<output type=\"gz.msgs.Twist\" topic=\"/model/simple_tracked/cmd_vel\">\n                    linear: {x: 1.0}, angular: {z: -1.0}\n                </output>\n            "
+}
+'     Timestamp: 2024-09-18 15:48:04      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:04      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::PerformerDetector"
+  filename: "gz-sim-performer-detector-system"
+  innerxml: "<topic>/performer_detector</topic>\n        \n<geometry>\n          <box>\n            <size>10 10 5</size>\n          </box>\n        </geometry>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:04      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:04      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::VelocityControl"
+  filename: "gz-sim-velocity-control-system"
+  innerxml: "<link_name>base</link_name>\n        \n<link_name>upper_link</link_name>\n        \n<link_name>lower_link</link_name>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:05      Result: 
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:05      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n                    <match field=\"data\">90</match>\n                </input>\n                \n<output type=\"gz.msgs.Twist\" topic=\"/model/simple_tracked/cmd_vel\">\n                    linear: {x: -1.0}, angular: {z: 1.0}\n                </output>\n            "
+}
+'     Timestamp: 2024-09-18 15:48:05      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:05      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n                    <match field=\"data\">81</match>\n                </input>\n                \n<output type=\"gz.msgs.Twist\" topic=\"/model/simple_tracked/cmd_vel\">\n                    linear: {x: 1.0}, angular: {z: 1.0}\n                </output>\n            "
+}
+'     Timestamp: 2024-09-18 15:48:06      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:06      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::DetachableJoint"
+  filename: "gz-sim-detachable-joint-system"
+  innerxml: "<parent_link>chassis</parent_link>\n       \n<child_model>B2</child_model>\n       \n<child_link>body</child_link>\n       \n<detach_topic>/B2/detach</detach_topic>\n       \n<attach_topic>/B2/attach</attach_topic>\n       \n<output_topic>/B2/state</output_topic>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:06      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:06      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr3</address>\n        \n<topic>addr3/rx</topic>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:07      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:07      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>model32::rotor_joint</joint_name>\n        \n<topic>/model32/cmd_rotor</topic>\n        \n<p_gain>30</p_gain>\n        \n<i_gain>0.05</i_gain>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:07      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:07      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr2</address>\n        \n<topic>addr2/rx</topic>\n        \n<broker>\n          <bind_service>/broker/bind</bind_service>\n          <unbind_service>/broker/unbind</unbind_service>\n        </broker>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:08      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:08      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::LiftDrag"
+  filename: "gz-sim-lift-drag-system"
+  innerxml: "<a0>0.2</a0>\n        \n<cla>10.000</cla>\n        \n<cda>0.0001</cda>\n        \n<cma>0.00</cma>\n        \n<alpha_stall>10.0</alpha_stall>\n        \n<cla_stall>1.0</cla_stall>\n        \n<cda_stall>0.001</cda_stall>\n        \n<cma_stall>0.0</cma_stall>\n        \n<cp>0.0 0.5 0</cp>\n        \n<area>0.2</area>\n        \n<air_density>1.2041</air_density>\n        \n<forward>0 0 -1</forward>\n        \n<upward>-1 0 0</upward>\n        \n<link_name>blade_1</link_name>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:08      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:08      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::LiftDrag"
+  filename: "gz-sim-lift-drag-system"
+  innerxml: "<a0>0.1</a0>\n        \n<cla>0.1</cla>\n        \n<cda>0.001</cda>\n        \n<cma>0.0</cma>\n        \n<cp>0.0 0.5 0</cp>\n        \n<area>0.2</area>\n        \n<air_density>1.2041</air_density>\n        \n<forward>1 0 0</forward>\n        \n<upward>0 0 1</upward>\n        \n<link_name>blade_1</link_name>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:08      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:08      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::WheelSlip"
+  filename: "gz-sim-wheel-slip-system"
+  innerxml: "<wheel link_name=\"wheel_front\">\n          <slip_compliance_lateral>1</slip_compliance_lateral>\n          <slip_compliance_longitudinal>1</slip_compliance_longitudinal>\n          <wheel_normal_force>77</wheel_normal_force>\n          <wheel_radius>0.15</wheel_radius>\n        </wheel>\n        \n<wheel link_name=\"wheel_rear_left\">\n          <slip_compliance_lateral>1</slip_compliance_lateral>\n          <slip_compliance_longitudinal>1</slip_compliance_longitudinal>\n          <wheel_normal_force>32</wheel_normal_force>\n          <wheel_radius>0.15</wheel_radius>\n        </wheel>\n        \n<wheel link_name=\"wheel_rear_right\">\n          <slip_compliance_lateral>1</slip_compliance_lateral>\n          <slip_compliance_longitudinal>1</slip_compliance_longitudinal>\n          <wheel_normal_force>32</wheel_normal_force>\n          <wheel_radius>0.15</wheel_radius>\n        </wheel>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:09      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::KineticEnergyMonitor"
+  filename: "gz-sim-kinetic-energy-monitor-system"
+  innerxml: "<link_name>sphere_link</link_name>\n        \n<kinetic_energy_threshold>100</kinetic_energy_threshold>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:09      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr2</address>\n        \n<topic>addr2/rx</topic>\n        \n<broker>\n          <bind_service>/broker/bind</bind_service>\n          <unbind_service>/broker/unbind</unbind_service>\n        </broker>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:10      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointStatePublisher"
+  filename: "gz-sim-joint-state-publisher-system"
+}
+'     Timestamp: 2024-09-18 15:48:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:10      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointController"
+  filename: "gz-sim-joint-controller-system"
+  innerxml: "<joint_name>j1</joint_name>\n        \n<use_force_commands>true</use_force_commands>\n        \n<p_gain>0.2</p_gain>\n        \n<i_gain>0.01</i_gain>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:11      Result: 
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:11      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>rotor_joint</joint_name>\n        \n<topic>/model1/cmd_rotor</topic>\n        \n<p_gain>30</p_gain>\n        \n<i_gain>0.05</i_gain>\n      "
+}
+'     Timestamp: 2024-09-18 15:48:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 15:48:11      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------

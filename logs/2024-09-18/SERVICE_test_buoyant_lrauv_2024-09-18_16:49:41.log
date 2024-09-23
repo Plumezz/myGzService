@@ -1,0 +1,21 @@
+Command: gz sim -r -s /usr/share/gz/gz-sim8/worlds/shapes.sdf     Timestamp: 2024-09-18 16:49:41      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-18 16:49:42      Result: data: "buoyant_lrauv"
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:49:45      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::MecanumDrive"
+  filename: "gz-sim-mecanum-drive-system"
+  innerxml: "<front_left_joint>front_left_wheel_joint</front_left_joint>\n        \n<front_right_joint>front_right_wheel_joint</front_right_joint>\n        \n<back_left_joint>rear_left_wheel_joint</back_left_joint>\n        \n<back_right_joint>rear_right_wheel_joint</back_right_joint>\n        \n<wheel_separation>1.25</wheel_separation>\n        \n<wheelbase>1.511</wheelbase>\n        \n<wheel_radius>0.3</wheel_radius>\n        \n<min_acceleration>-5</min_acceleration>\n        \n<max_acceleration>5</max_acceleration>\n      "
+}
+'     Timestamp: 2024-09-18 16:49:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:49:45      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------

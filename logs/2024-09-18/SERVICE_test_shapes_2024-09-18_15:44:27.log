@@ -1,0 +1,2 @@
+Command: gz sim -r -s /usr/share/gz/gz-sim8/worlds/shapes.sdf     Timestamp: 2024-09-18 15:44:27      Result: successfully start gz
+----------------------------------------

@@ -1,0 +1,5 @@
+Command: gz sim -r -s /home/plume/gazebo_maritime/worlds/buoyant_lrauv.sdf     Timestamp: 2024-09-18 18:11:45      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-18 18:11:46      Result: data: "buoyant_lrauv"
+
+----------------------------------------

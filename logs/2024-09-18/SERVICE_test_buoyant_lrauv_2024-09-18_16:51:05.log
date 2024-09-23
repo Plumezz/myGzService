@@ -1,0 +1,315 @@
+Command: gz sim -r -s /usr/share/gz/gz-sim8/worlds/shapes.sdf     Timestamp: 2024-09-18 16:51:05      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-18 16:51:06      Result: data: "shapes"
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:09      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 24
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n              <match field=\"data\">68</match>\n          </input>\n          \n<output type=\"gz.msgs.Twist\" topic=\"/cmd_vel\">\n              linear: {x: 0.0}, angular: {z: -0.5}\n          </output>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:09      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 12
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>model31::rotor_joint</joint_name>\n        \n<topic>/model31/cmd_rotor</topic>\n        \n<p_gain>30</p_gain>\n        \n<i_gain>0.05</i_gain>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:09      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:09      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 28
+}
+plugins {
+  name: "gz::sim::systems::ApplyJointForce"
+  filename: "gz-sim-apply-joint-force-system"
+  innerxml: "<joint_name>rod_1_joint</joint_name>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:10      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::DetachableJoint"
+  filename: "gz-sim-detachable-joint-system"
+  innerxml: "<parent_link>body</parent_link>\n        \n<child_model>box1</child_model>\n        \n<child_link>box_body</child_link>\n        \n<detach_topic>/box1/detach</detach_topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:10      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:10      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 16
+}
+plugins {
+  name: "gz::sim::systems::DetachableJoint"
+  filename: "gz-sim-detachable-joint-system"
+  innerxml: "<parent_link>body</parent_link>\n        \n<child_model>box1</child_model>\n        \n<child_link>box_body</child_link>\n        \n<detach_topic>/box1/detach</detach_topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:11      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 16
+}
+plugins {
+  name: "gz::sim::systems::DetachableJoint"
+  filename: "gz-sim-detachable-joint-system"
+  innerxml: "<parent_link>chassis</parent_link>\n       \n<child_model>B2</child_model>\n       \n<child_link>body</child_link>\n       \n<detach_topic>/B2/detach</detach_topic>\n       \n<attach_topic>/B2/attach</attach_topic>\n       \n<output_topic>/B2/state</output_topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:11      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 12
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr1</address>\n        \n<topic>addr1/rx</topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:11      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:11      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::TrackController"
+  filename: "gz-sim-track-controller-system"
+  innerxml: "<link>front_right_flipper</link>\n                \n<min_velocity>-1.0</min_velocity>\n                \n<max_velocity>1.0</max_velocity>\n            "
+}
+'     Timestamp: 2024-09-18 16:51:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:12      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 20
+}
+plugins {
+  name: "gz::sim::systems::TriggeredPublisher"
+  filename: "gz-sim-triggered-publisher-system"
+  innerxml: "<input type=\"gz.msgs.Int32\" topic=\"/keyboard/keypress\">\n              <match field=\"data\">88</match>\n          </input>\n          \n<output type=\"gz.msgs.Twist\" topic=\"/cmd_vel\">\n              linear: {x: -2.0}, angular: {z: 0.0}\n          </output>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:12      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:12      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 16
+}
+plugins {
+  name: "gz::sim::systems::DetachableJoint"
+  filename: "gz-sim-detachable-joint-system"
+  innerxml: "<parent_link>body</parent_link>\n        \n<child_model>box2</child_model>\n        \n<child_link>box_body</child_link>\n        \n<detach_topic>/box2/detach</detach_topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:13      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr2</address>\n        \n<topic>addr2/rx</topic>\n        \n<broker>\n          <bind_service>/broker/bind</bind_service>\n          <unbind_service>/broker/unbind</unbind_service>\n        </broker>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:13      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 20
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr4</address>\n        \n<topic>addr4/rx</topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:13      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:13      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::ApplyJointForce"
+  filename: "gz-sim-apply-joint-force-system"
+  innerxml: "<joint_name>rod_1_joint</joint_name>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:14      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 28
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr2</address>\n        \n<topic>addr2/rx</topic>\n        \n<broker>\n          <bind_service>/broker/bind</bind_service>\n          <unbind_service>/broker/unbind</unbind_service>\n        </broker>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:14      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::VelocityControl"
+  filename: "gz-sim-velocity-control-system"
+  innerxml: "<link_name>base</link_name>\n        \n<link_name>upper_link</link_name>\n        \n<link_name>lower_link</link_name>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:14      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:14      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 20
+}
+plugins {
+  name: "gz::sim::systems::ApplyJointForce"
+  filename: "gz-sim-apply-joint-force-system"
+  innerxml: "<joint_name>rod_1_joint</joint_name>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:15      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 20
+}
+plugins {
+  name: "gz::sim::systems::PerformerDetector"
+  filename: "gz-sim-performer-detector-system"
+  innerxml: "<topic>/performer_detector</topic>\n        \n<geometry>\n          <box>\n            <size>10 10 5</size>\n          </box>\n        </geometry>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:15      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:15      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>j1</joint_name>\n        \n<topic>rotor_cmd</topic>\n        \n<p_gain>1</p_gain>\n        \n<i_gain>0.1</i_gain>\n        \n<d_gain>0.01</d_gain>\n        \n<i_max>1</i_max>\n        \n<i_min>-1</i_min>\n        \n<cmd_max>1000</cmd_max>\n        \n<cmd_min>-1000</cmd_min>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:16      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>model41::rotor_joint</joint_name>\n        \n<topic>/model41/cmd_rotor</topic>\n        \n<p_gain>30</p_gain>\n        \n<i_gain>0.05</i_gain>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:16      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::CommsEndpoint"
+  filename: "gz-sim-comms-endpoint-system"
+  innerxml: "<address>addr1</address>\n        \n<topic>addr1/rx</topic>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:16      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:16      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 16
+}
+plugins {
+  name: "gz::sim::systems::PerformerDetector"
+  filename: "gz-sim-performer-detector-system"
+  innerxml: "<topic>/performer_detector</topic>\n        \n<geometry>\n          <box>\n            <size>10 10 5</size>\n          </box>\n        </geometry>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:17      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/shapes/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 8
+}
+plugins {
+  name: "gz::sim::systems::TrajectoryFollower"
+  filename: "gz-sim-trajectory-follower-system"
+  innerxml: "<link_name>box_link</link_name>\n        \n<loop>true</loop>\n        \n<force>10</force>\n        \n<torque>10</torque>\n        \n<waypoints>\n          <waypoint>2 0</waypoint>\n          <waypoint>7 0</waypoint>\n        </waypoints>\n      "
+}
+'     Timestamp: 2024-09-18 16:51:17      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/shapes/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-18 16:51:17      Result: {"ground_plane_4": ["link"], "box_8": ["box_link"], "cylinder_12": ["cylinder_link"], "sphere_16": ["sphere_link"], "capsule_20": ["capsule_link"], "ellipsoid_24": ["ellipsoid_link"], "cone_28": ["cone_link"]}
+----------------------------------------

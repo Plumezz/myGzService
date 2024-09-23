@@ -1,0 +1,4 @@
+Command: gz sim /home/plume/Desktop/test.sdf     Timestamp: 2024-09-19 16:46:44      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-19 16:46:45      Result: 
+----------------------------------------

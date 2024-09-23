@@ -1,0 +1,42 @@
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:48:43      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::LiftDrag"
+  filename: "gz-sim-lift-drag-system"
+  innerxml: "<a0>0.2</a0>\n        \n<cla>10.000</cla>\n        \n<cda>0.0001</cda>\n        \n<cma>0.00</cma>\n        \n<alpha_stall>10.0</alpha_stall>\n        \n<cla_stall>1.0</cla_stall>\n        \n<cda_stall>0.001</cda_stall>\n        \n<cma_stall>0.0</cma_stall>\n        \n<cp>0.0 0.5 0</cp>\n        \n<area>0.2</area>\n        \n<air_density>1.2041</air_density>\n        \n<forward>0 0 1</forward>\n        \n<upward>1 0 0</upward>\n        \n<link_name>blade_2</link_name>\n      "
+}
+'     Timestamp: 2024-09-17 20:48:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:48:43      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::AckermannSteering"
+  filename: "gz-sim-ackermann-steering-system"
+  innerxml: "<left_joint>front_left_wheel_joint</left_joint>\n        \n<left_joint>rear_left_wheel_joint</left_joint>\n        \n<right_joint>front_right_wheel_joint</right_joint>\n        \n<right_joint>rear_right_wheel_joint</right_joint>\n        \n<left_steering_joint>front_left_wheel_steering_joint</left_steering_joint>\n        \n<right_steering_joint>front_right_wheel_steering_joint</right_steering_joint>\n        \n<kingpin_width>1.0</kingpin_width>\n        \n<steering_limit>0.5</steering_limit>\n        \n<wheel_base>1.0</wheel_base>\n        \n<wheel_separation>1.25</wheel_separation>\n        \n<wheel_radius>0.3</wheel_radius>\n        \n<min_velocity>-1</min_velocity>\n        \n<max_velocity>1</max_velocity>\n        \n<min_acceleration>-3</min_acceleration>\n        \n<max_acceleration>3</max_acceleration>\n      "
+}
+'     Timestamp: 2024-09-17 20:48:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-17 20:48:43      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/entity/system/add --reptype gz.msgs.Boolean --reqtype gz.msgs.EntityPlugin_V --req 'entity {
+  id: 4
+}
+plugins {
+  name: "gz::sim::systems::JointPositionController"
+  filename: "gz-sim-joint-position-controller-system"
+  innerxml: "<joint_name>rotor_joint</joint_name>\n        \n<topic>/model2/cmd_rotor</topic>\n        \n<p_gain>30</p_gain>\n        \n<i_gain>0.05</i_gain>\n      "
+}
+'     Timestamp: 2024-09-17 20:48:43      Result: data: true
+
+
+----------------------------------------

@@ -1,0 +1,599 @@
+Command: gz sim -r -s /home/plume/gazebo_maritime/worlds/buoyant_lrauv.sdf     Timestamp: 2024-09-19 16:51:15      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-19 16:51:15      Result: data: "buoyant_lrauv"
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:18      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.08470999792386  y: -4.00991012211219  z: -8.39772834905653}'      Timestamp: 2024-09-19 16:51:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:19      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -3.279061343994143  y: 9.025371704917966  z: 0.7433132253513381}'      Timestamp: 2024-09-19 16:51:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:19      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.9205715133700885  y: -1.581480982302434  z: 9.88559867203276}'      Timestamp: 2024-09-19 16:51:19      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:19      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 5.401458449412878  y: 1.641321803970877  z: -8.701170060863916}'      Timestamp: 2024-09-19 16:51:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:20      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 0.2310895367600292  y: -9.639972322107436  z: 2.6441479748905987}'      Timestamp: 2024-09-19 16:51:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:20      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 6.222873237166162  y: 5.661641949299822  z: 0.2540812967247401}'      Timestamp: 2024-09-19 16:51:20      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:20      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 0.9626289986218985  y: -0.531959460334118  z: -5.840203122116359}'      Timestamp: 2024-09-19 16:51:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:21      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -4.37032887639633  y: -3.4619650568220095  z: -1.214932443513872}'      Timestamp: 2024-09-19 16:51:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:21      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.273155740676014  y: -5.129073162209103  z: 3.1796010770555725}'      Timestamp: 2024-09-19 16:51:21      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:21      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 1.5990082379260393  y: 4.842051046415726  z: 0.5645524677900227}'      Timestamp: 2024-09-19 16:51:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:22      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -4.844300613144954  y: 1.3420559288243084  z: -4.0706682534075895}'      Timestamp: 2024-09-19 16:51:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:22      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 0.8183488734555731  y: 7.0175437751958505  z: -9.97025560036332}'      Timestamp: 2024-09-19 16:51:22      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:22      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -3.636820158325169  y: 1.411088508211657  z: -8.118606590698699}'      Timestamp: 2024-09-19 16:51:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:23      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.869763141768393  y: 3.680558735323043  z: 0.0842271810981714}'      Timestamp: 2024-09-19 16:51:23      Result: 
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:23      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.316018932964493  y: -0.5500064220662519  z: 8.766087643306058}'      Timestamp: 2024-09-19 16:51:23      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:23      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 6.755568590592727  y: 1.9745899296419527  z: 0.6876316247825169}'      Timestamp: 2024-09-19 16:51:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:24      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.674026492347133  y: 6.335832591278653  z: 6.911179568858849}'      Timestamp: 2024-09-19 16:51:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:24      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -2.1938963128157107  y: -3.8599547992468386  z: 7.921329834221716}'      Timestamp: 2024-09-19 16:51:24      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:24      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 9.043494546929228  y: 4.555142371037393  z: -5.755457361117589}'      Timestamp: 2024-09-19 16:51:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:25      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -7.8411358687572585  y: -6.460169761448327  z: 1.877292627442472}'      Timestamp: 2024-09-19 16:51:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:25      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 4.298197340749578  y: -0.816939540230166  z: -2.225313354281189}'      Timestamp: 2024-09-19 16:51:25      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:25      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 3.441679005268501  y: 8.65735343882653  z: 9.440425217931676}'      Timestamp: 2024-09-19 16:51:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:26      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.283723341652655  y: -3.534695577419056  z: 5.735664866122425}'      Timestamp: 2024-09-19 16:51:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:26      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 3.6471009273369592  y: 7.494500999989139  z: 4.197962833818165}'      Timestamp: 2024-09-19 16:51:26      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:26      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -9.216892838558774  y: -0.8822197280091792  z: 7.4714161527485885}'      Timestamp: 2024-09-19 16:51:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:27      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -4.117431063658392  y: 6.86420661876593  z: -2.0002700998179623}'      Timestamp: 2024-09-19 16:51:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:27      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 9.209321933537339  y: -0.3567101373840327  z: 4.196254702116429}'      Timestamp: 2024-09-19 16:51:27      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:27      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.11209526138348  y: 8.790152687443658  z: -1.828582505770381}'      Timestamp: 2024-09-19 16:51:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:28      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.409251008784711  y: -1.3879183372988262  z: 2.1919265460920556}'      Timestamp: 2024-09-19 16:51:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:28      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.8972631384923151  y: 5.039435024800735  z: -0.01552372554186654}'      Timestamp: 2024-09-19 16:51:28      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:28      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.818656972988865  y: -1.612606863862192  z: -9.244129119084636}'      Timestamp: 2024-09-19 16:51:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:29      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.881611860676699  y: 4.283539539811116  z: -0.5591894086402363}'      Timestamp: 2024-09-19 16:51:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:29      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -4.308832100232481  y: 0.846382563244612  z: -6.814988770222272}'      Timestamp: 2024-09-19 16:51:29      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:29      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -2.614084720000238  y: 3.1233222179082443  z: -4.342323151885436}'      Timestamp: 2024-09-19 16:51:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:30      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -7.156497671339894  y: 2.6844105187629896  z: -8.496363366871032}'      Timestamp: 2024-09-19 16:51:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:30      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.844040472631951  y: 5.7319156478300055  z: -8.944604402220888}'      Timestamp: 2024-09-19 16:51:30      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:30      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.720119943424848  y: 0.36591021996220974  z: -0.2673082960237849}'      Timestamp: 2024-09-19 16:51:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:31      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.5383369592176059  y: -9.771972687175232  z: 8.24242093550005}'      Timestamp: 2024-09-19 16:51:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:31      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 0.04309694721460389  y: -3.3268880010628488  z: 0.40278414455258016}'      Timestamp: 2024-09-19 16:51:31      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:31      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 2.1796630912847093  y: -9.501875509422606  z: -5.595759277909131}'      Timestamp: 2024-09-19 16:51:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:32      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 9.558907668422595  y: 3.5738462203529693  z: 2.5207815481886815}'      Timestamp: 2024-09-19 16:51:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:32      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 5.440997383267234  y: 0.24589910276374027  z: -3.148864856349216}'      Timestamp: 2024-09-19 16:51:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:32      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 8.844001454051735  y: 3.3319233531826864  z: 0.13410716961150548}'      Timestamp: 2024-09-19 16:51:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:33      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 6.645165627572002  y: 3.1488276980717185  z: 6.784282139383006}'      Timestamp: 2024-09-19 16:51:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:33      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -9.23530240502663  y: 5.016282767296117  z: 5.195062387345589}'      Timestamp: 2024-09-19 16:51:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:33      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.998899531179823  y: 3.4139106503636807  z: 2.252655029348606}'      Timestamp: 2024-09-19 16:51:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:34      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 4.580693973894556  y: -6.92187748889755  z: -6.968983889486912}'      Timestamp: 2024-09-19 16:51:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:34      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 6.2866884981358275  y: -5.437751639838709  z: -0.9820438381280674}'      Timestamp: 2024-09-19 16:51:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:34      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -7.4750976050160745  y: 0.9975871638698557  z: -8.871377018641951}'      Timestamp: 2024-09-19 16:51:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:35      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 5.573679073737088  y: 8.074990720828843  z: -1.8118894904563696}'      Timestamp: 2024-09-19 16:51:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:35      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.977288307189934  y: -9.913554694241885  z: 3.57984239547417}'      Timestamp: 2024-09-19 16:51:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:35      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -9.475775323123889  y: -2.2377906449268163  z: 1.5431749070490817}'      Timestamp: 2024-09-19 16:51:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:36      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -7.568392228858205  y: -3.6726406204395783  z: -6.02471899883146}'      Timestamp: 2024-09-19 16:51:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:36      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 3.9472568070661325  y: -3.7987367134140593  z: -6.523592826337749}'      Timestamp: 2024-09-19 16:51:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:36      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 2.3248593563270283  y: -9.647562575924978  z: 5.382786289070378}'      Timestamp: 2024-09-19 16:51:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:37      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -4.049889648796747  y: 3.058031478932538  z: -0.066145563041065}'      Timestamp: 2024-09-19 16:51:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:37      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -7.034236048092531  y: -1.047365267284949  z: -2.3971699490166003}'      Timestamp: 2024-09-19 16:51:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:37      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -3.6166588677094236  y: 9.318429889358669  z: -4.077852336581522}'      Timestamp: 2024-09-19 16:51:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:38      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 6.8035554553040285  y: 5.403093378632642  z: -7.424175032797069}'      Timestamp: 2024-09-19 16:51:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:38      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.6361918745045969  y: -5.506990002180729  z: -8.184224361031003}'      Timestamp: 2024-09-19 16:51:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:38      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.6542143572171  y: 9.024711321288969  z: -2.643444871702714}'      Timestamp: 2024-09-19 16:51:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:39      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.77427373219037  y: -1.2008461601917304  z: 2.3679068056288184}'      Timestamp: 2024-09-19 16:51:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:39      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.742939911096888  y: 4.654930339615493  z: 8.570748162972883}'      Timestamp: 2024-09-19 16:51:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:39      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.575700459025741  y: 3.9321087024093657  z: -3.530425334998622}'      Timestamp: 2024-09-19 16:51:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:40      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.080796485645315  y: 8.990631146602393  z: -7.933311427738587}'      Timestamp: 2024-09-19 16:51:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:40      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.796089343440482  y: -9.927378846213752  z: 9.537261538289822}'      Timestamp: 2024-09-19 16:51:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:40      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.271223651391267  y: -1.9410439309216247  z: -1.300824042052163}'      Timestamp: 2024-09-19 16:51:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:41      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -9.125077297780312  y: 0.8096676391028073  z: 7.072458618847637}'      Timestamp: 2024-09-19 16:51:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:41      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.8607372742834318  y: -4.516712573034969  z: 7.627457250132615}'      Timestamp: 2024-09-19 16:51:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:41      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 9.225563204839908  y: -8.221807507483266  z: -1.6878422125885262}'      Timestamp: 2024-09-19 16:51:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:42      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 0.059821627464707205  y: -7.809350425928672  z: -7.17258037027926}'      Timestamp: 2024-09-19 16:51:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:42      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -7.767287458597849  y: 3.623847137996856  z: 4.8779574087383555}'      Timestamp: 2024-09-19 16:51:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:42      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.3912800874412774  y: 6.717325538297445  z: -6.3333164505568025}'      Timestamp: 2024-09-19 16:51:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:43      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.500516815537761  y: -0.4494627252753176  z: -9.778999128355858}'      Timestamp: 2024-09-19 16:51:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:43      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.774883798222364  y: -7.8410220054899575  z: -7.759506750182328}'      Timestamp: 2024-09-19 16:51:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:43      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -3.279619427733042  y: 3.747146286676431  z: -2.124341327221382}'      Timestamp: 2024-09-19 16:51:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:44      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.389675976949198  y: -3.0130974136498834  z: -4.515061067660476}'      Timestamp: 2024-09-19 16:51:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:44      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 0.808110239653896  y: -4.987775732252633  z: 5.01478619906009}'      Timestamp: 2024-09-19 16:51:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:44      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -9.186719650950575  y: -8.089051498790631  z: -2.11411724640919}'      Timestamp: 2024-09-19 16:51:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:45      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.660887604405984  y: 6.793611159186067  z: 4.840050891052115}'      Timestamp: 2024-09-19 16:51:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:45      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 4.693662853633517  y: -4.928690563091351  z: -6.010283153053432}'      Timestamp: 2024-09-19 16:51:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:45      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 4.610391289463644  y: -1.473261802032619  z: 6.300880244247818}'      Timestamp: 2024-09-19 16:51:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:46      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.948666499964955  y: 0.8376156255732212  z: -3.683460801511858}'      Timestamp: 2024-09-19 16:51:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:46      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -3.3251223952404096  y: -1.0214171398645906  z: -6.0277636877287915}'      Timestamp: 2024-09-19 16:51:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:46      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.043679657960328  y: -7.7005728736977535  z: -3.88906445421084}'      Timestamp: 2024-09-19 16:51:47      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:47      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.497734833630506  y: -4.772727108364087  z: -4.024079872640465}'      Timestamp: 2024-09-19 16:51:47      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:47      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -6.253477009452326  y: 3.6057805740675875  z: 0.5205466541673154}'      Timestamp: 2024-09-19 16:51:47      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:47      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 2.7029830510071484  y: 2.500726040306109  z: 6.116457188610141}'      Timestamp: 2024-09-19 16:51:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:48      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 2.315230200306196  y: 8.551641649507037  z: 1.7615109306503776}'      Timestamp: 2024-09-19 16:51:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:48      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 9.775628148625938  y: 2.979383035244359  z: -5.602494625593064}'      Timestamp: 2024-09-19 16:51:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:48      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.434332660745527  y: -5.069330947591039  z: -3.9306122965272694}'      Timestamp: 2024-09-19 16:51:49      Result: 
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:49      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -3.7696904671038673  y: -3.8197253009733068  z: -5.118658415735973}'      Timestamp: 2024-09-19 16:51:49      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:49      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 3.504577886976872  y: -7.121820510054087  z: -3.7098994507837757}'      Timestamp: 2024-09-19 16:51:49      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:49      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -4.872006953088999  y: 3.916190708880663  z: 4.809050734356905}'      Timestamp: 2024-09-19 16:51:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:50      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 4.3737494538942485  y: 6.523801272991921  z: -2.65806076597241}'      Timestamp: 2024-09-19 16:51:50      Result: 
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:50      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: 7.83793247759651  y: 7.173112918946295  z: -0.6750206692537724}'      Timestamp: 2024-09-19 16:51:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:50      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -5.250970372093054  y: 3.2453487442404967  z: -4.708132744850273}'      Timestamp: 2024-09-19 16:51:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:51      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -2.0007888479422986  y: -5.0875465460376486  z: 1.8105936508257372}'      Timestamp: 2024-09-19 16:51:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:51      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -8.982439267909427  y: -7.9384302589525335  z: -2.9947217411024667}'      Timestamp: 2024-09-19 16:51:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service -s /world/buoyant_lrauv/scene/info  --reqtype gz.msgs.Empty --reptype gz.msgs.Scene --req      Timestamp: 2024-09-19 16:51:51      Result: {"my_lrauv_4": ["base_link", "horizontal_fins", "vertical_fins", "propeller"]}
+----------------------------------------
+Command: gz service --timeout 300 -s /world/buoyant_lrauv/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "my_lrauv"position {  x: -0.7708299911627652  y: 1.2002324179366681  z: 8.556013014591471}'      Timestamp: 2024-09-19 16:51:52      Result: data: true
+
+
+----------------------------------------

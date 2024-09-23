@@ -1,0 +1,84 @@
+Command: gz sim -r -s /home/plume/Desktop/test.sdf 2>errors/2024-09-17/error_sim_2024-09-17_20:19:50.log     Timestamp: 2024-09-17 20:21:59      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -2.026448450471616  y: -6.499646970360664  z: 9.416955802547943}'      Timestamp: 2024-09-17 20:22:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 6.863607458707737  y: -6.0946869986201495  z: 7.81106952349942}'      Timestamp: 2024-09-17 20:22:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.534192706739532  y: -0.8269248686370378  z: 7.02989482943876}'      Timestamp: 2024-09-17 20:22:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 6.58562019962822  y: -1.7476878125031199  z: 3.331141781401218}'      Timestamp: 2024-09-17 20:22:01      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 5.216865091794713  y: -7.67233277614122  z: 0.1169790444656158}'      Timestamp: 2024-09-17 20:22:01      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -0.9564826294392059  y: 5.075810625433245  z: -9.742142320575812}'      Timestamp: 2024-09-17 20:22:02      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -3.576240250067566  y: -3.071618104275162  z: -5.696691606967079}'      Timestamp: 2024-09-17 20:22:02      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -8.262498407553657  y: -9.393362021538618  z: 8.293533950651554}'      Timestamp: 2024-09-17 20:22:02      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 4.590173804090549  y: -1.5606928526727906  z: 6.472011724947386}'      Timestamp: 2024-09-17 20:22:03      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -0.2879585514717391  y: -5.73396177013084  z: 9.950438594362293}'      Timestamp: 2024-09-17 20:22:03      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -9.379053480573116  y: 3.571472718752487  z: 0.9824571577856833}'      Timestamp: 2024-09-17 20:22:03      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.027146529292821  y: 0.7627809135888697  z: -6.859455546627606}'      Timestamp: 2024-09-17 20:22:04      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 5.716839699057807  y: 0.7614083005790402  z: -8.447759872375055}'      Timestamp: 2024-09-17 20:22:04      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -3.1030905853110324  y: -8.571965447064775  z: 5.128458730772223}'      Timestamp: 2024-09-17 20:22:04      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 9.332424732313513  y: 1.832559231682687  z: -8.388933729950608}'      Timestamp: 2024-09-17 20:22:05      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -9.741854368138034  y: 6.7168271243899795  z: -4.938734341832363}'      Timestamp: 2024-09-17 20:22:05      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 3.5378782531621855  y: 4.728015834915535  z: -9.860850832816306}'      Timestamp: 2024-09-17 20:22:05      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: -3.411583047575199  y: -3.630122720581335  z: 5.080533788118583}'      Timestamp: 2024-09-17 20:22:06      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 6.841136832796689  y: 8.74028626516446  z: -0.9917894304033901}'      Timestamp: 2024-09-17 20:22:06      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 1.1002164179085483  y: -2.5026914379073943  z: -8.011875055929972}'      Timestamp: 2024-09-17 20:22:07      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "vehicle_blue"position {  x: 0.009010169533629764  y: 0.32171411571563446  z: 6.122861853060371}'      Timestamp: 2024-09-17 20:22:07      Result: data: true
+
+
+----------------------------------------

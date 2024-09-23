@@ -1,0 +1,403 @@
+Command: gz sim -r -s /home/plume/Desktop/test.sdf     Timestamp: 2024-09-19 16:35:29      Result: successfully start gz
+----------------------------------------
+Command: gz service --timeout 300 -s /gazebo/worlds  --reqtype gz.msgs.Empty --reptype gz.msgs.StringMsg_V --req      Timestamp: 2024-09-19 16:35:29      Result: data: "test"
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.4115998209668135  y: -0.034665077390620525  z: -4.6941918645672365}'      Timestamp: 2024-09-19 16:35:32      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.357728734355996  y: -2.9046898297224732  z: -7.606426071840808}'      Timestamp: 2024-09-19 16:35:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -3.209343092084513  y: -4.301789593588854  z: -9.296287196456587}'      Timestamp: 2024-09-19 16:35:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.709066641339776  y: -2.5573702995620984  z: -0.6278223539378622}'      Timestamp: 2024-09-19 16:35:33      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -5.9825243402195944  y: 2.723893579842251  z: -5.14487169848678}'      Timestamp: 2024-09-19 16:35:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.07119648667635481  y: 5.500398079533969  z: 9.655150547318744}'      Timestamp: 2024-09-19 16:35:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 4.6332922582276215  y: -9.373603950899149  z: 5.511045636600452}'      Timestamp: 2024-09-19 16:35:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.944466778665017  y: 2.680007398076768  z: -6.290331930759785}'      Timestamp: 2024-09-19 16:35:34      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 2.794750059010024  y: -9.099713493353184  z: 2.0698136718580873}'      Timestamp: 2024-09-19 16:35:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.1972692742155449  y: -3.9438637629891566  z: 8.080704673079055}'      Timestamp: 2024-09-19 16:35:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 8.617431814560945  y: 4.134703290672215  z: 5.39653323707199}'      Timestamp: 2024-09-19 16:35:35      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -5.260478687223977  y: 7.752139618632409  z: 3.5341969943386875}'      Timestamp: 2024-09-19 16:35:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.9389278090182618  y: 2.765810847832576  z: 1.7493491575381483}'      Timestamp: 2024-09-19 16:35:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.2195872250984312  y: -6.459915773776952  z: -6.1717794787495865}'      Timestamp: 2024-09-19 16:35:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -2.4553046009290824  y: 9.558672244609092  z: -0.30592728046737605}'      Timestamp: 2024-09-19 16:35:36      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -2.230249976710099  y: 2.244360046373002  z: -4.753726070612481}'      Timestamp: 2024-09-19 16:35:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 8.447075975633595  y: -7.726971725959546  z: -5.256068097957504}'      Timestamp: 2024-09-19 16:35:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.9059756522587659  y: 3.5894713368783506  z: -1.9364790657199311}'      Timestamp: 2024-09-19 16:35:37      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.4807104745085802  y: -3.5324568752766066  z: 7.520592065643015}'      Timestamp: 2024-09-19 16:35:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -2.2367751108779155  y: -5.360536494692476  z: -3.3598104540734175}'      Timestamp: 2024-09-19 16:35:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 9.421315807020807  y: -1.7612610836632836  z: -1.2422378990923875}'      Timestamp: 2024-09-19 16:35:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.0337023276310937  y: 5.104845524193397  z: 3.7451766604586254}'      Timestamp: 2024-09-19 16:35:38      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.922718969418032  y: -6.119039710045802  z: 0.6005863790229427}'      Timestamp: 2024-09-19 16:35:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.5349508890155192  y: -0.9303212302691541  z: -1.1503638516911856}'      Timestamp: 2024-09-19 16:35:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 9.675730392008099  y: -2.749074640129699  z: -9.138844295337861}'      Timestamp: 2024-09-19 16:35:39      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -8.832483173906013  y: -2.373522989041817  z: 1.542635221494752}'      Timestamp: 2024-09-19 16:35:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.329367154994885  y: 3.8642029621195473  z: -3.4315176392407265}'      Timestamp: 2024-09-19 16:35:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 6.73094999772848  y: -5.96241633182524  z: -9.72131263133852}'      Timestamp: 2024-09-19 16:35:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 4.101838881462408  y: -9.027609489791415  z: -9.728644104040931}'      Timestamp: 2024-09-19 16:35:40      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.912059175224754  y: 4.7666221826153965  z: 4.997661939145697}'      Timestamp: 2024-09-19 16:35:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.934449617122379  y: 0.09271500048924608  z: -7.186127920356955}'      Timestamp: 2024-09-19 16:35:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.331234297340569  y: 2.3171112743731506  z: -3.893488091378991}'      Timestamp: 2024-09-19 16:35:41      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 4.606872228307385  y: 5.267827856753565  z: -2.9287504010444643}'      Timestamp: 2024-09-19 16:35:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -2.3134146874199546  y: -0.038850909319316784  z: -4.768654195986944}'      Timestamp: 2024-09-19 16:35:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 5.647129965656781  y: 4.440709695061571  z: 3.1723601900217737}'      Timestamp: 2024-09-19 16:35:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 8.440360761571672  y: 4.839012457878802  z: 2.8543909971735495}'      Timestamp: 2024-09-19 16:35:42      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 5.819653968454519  y: 5.056219421406585  z: -6.826503311864672}'      Timestamp: 2024-09-19 16:35:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -5.799762982644614  y: -7.591972006935864  z: -4.139802778736565}'      Timestamp: 2024-09-19 16:35:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -8.530413541821511  y: 2.3881906428693274  z: 2.8417025711508455}'      Timestamp: 2024-09-19 16:35:43      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.7130614842682466  y: -3.4906449095500385  z: -3.724783943477455}'      Timestamp: 2024-09-19 16:35:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.031345608053524  y: 3.2749270853263486  z: -9.06263278540485}'      Timestamp: 2024-09-19 16:35:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 2.799231903388513  y: 5.417666268374113  z: -9.766242082078332}'      Timestamp: 2024-09-19 16:35:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.2154229387654798  y: -4.795988919739438  z: -1.596805345254971}'      Timestamp: 2024-09-19 16:35:44      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 6.296351995035025  y: 7.599036632947797  z: 6.3453621520691}'      Timestamp: 2024-09-19 16:35:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.6727185403306617  y: 5.928308553424381  z: 7.192467529196726}'      Timestamp: 2024-09-19 16:35:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.027820852561529108  y: 0.19009573739564622  z: 2.9370770957441756}'      Timestamp: 2024-09-19 16:35:45      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.3691361698284759  y: -3.6008164313843576  z: 9.743657200475887}'      Timestamp: 2024-09-19 16:35:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 8.386643347320486  y: 8.812946758653812  z: -2.329824238608693}'      Timestamp: 2024-09-19 16:35:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -3.985183987611965  y: -4.475795258258981  z: -6.224192159266697}'      Timestamp: 2024-09-19 16:35:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.026421645786455  y: 4.3513145375357105  z: 4.7530748504149365}'      Timestamp: 2024-09-19 16:35:46      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 3.6543737251966757  y: 2.2776359877389183  z: -9.54476230496341}'      Timestamp: 2024-09-19 16:35:47      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.013092550769592037  y: -8.550716625691475  z: -3.957598629651214}'      Timestamp: 2024-09-19 16:35:47      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.578733705833912  y: -3.549979022553373  z: -4.638342110662331}'      Timestamp: 2024-09-19 16:35:47      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -9.03802134985187  y: -4.898076268113927  z: 0.7751885404211141}'      Timestamp: 2024-09-19 16:35:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -5.19248590116987  y: -7.663426968573002  z: 5.7991736153934035}'      Timestamp: 2024-09-19 16:35:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -9.454180857490236  y: 1.5883100480072354  z: 0.6334065818890355}'      Timestamp: 2024-09-19 16:35:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 4.3611505303628455  y: -9.341107039040972  z: -0.7559502789978989}'      Timestamp: 2024-09-19 16:35:48      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 2.5393463501722664  y: 2.1034290309072077  z: 5.220489110789103}'      Timestamp: 2024-09-19 16:35:49      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 4.56537570049054  y: 1.0322575274126766  z: -2.6922878964639096}'      Timestamp: 2024-09-19 16:35:49      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.1405946177136084  y: 2.5754133649981306  z: -4.884402685249092}'      Timestamp: 2024-09-19 16:35:49      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -9.731869085935061  y: -0.17279300458860902  z: -2.1558640851059163}'      Timestamp: 2024-09-19 16:35:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.231646754280942  y: 0.13912185757046736  z: -6.589498330675001}'      Timestamp: 2024-09-19 16:35:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.6684847834028176  y: 1.9362325848783506  z: -1.0863419658137765}'      Timestamp: 2024-09-19 16:35:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 3.133336228871313  y: -3.141868001908694  z: -9.517972809400217}'      Timestamp: 2024-09-19 16:35:50      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.06175482019560796  y: -3.201745881571063  z: 1.1672303971178426}'      Timestamp: 2024-09-19 16:35:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -7.240166970512112  y: -0.563501527225057  z: -5.134069536199206}'      Timestamp: 2024-09-19 16:35:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.476775668108058  y: -9.618462671792418  z: 8.02949611733159}'      Timestamp: 2024-09-19 16:35:51      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 8.761860216067465  y: -8.294938445874987  z: -9.009814324801846}'      Timestamp: 2024-09-19 16:35:52      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.9216610055376915  y: 5.772444871363913  z: 1.7234600316514346}'      Timestamp: 2024-09-19 16:35:52      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.0627979129856175  y: 1.488863363597762  z: -0.8369463105980817}'      Timestamp: 2024-09-19 16:35:52      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.172888743577548  y: 6.532756037427376  z: 9.584971126640653}'      Timestamp: 2024-09-19 16:35:53      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.5790067232958958  y: 4.944193309517706  z: -8.262288851807691}'      Timestamp: 2024-09-19 16:35:53      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -7.601277505157576  y: 5.042963349756883  z: 8.964395626645384}'      Timestamp: 2024-09-19 16:35:53      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 9.341331622239487  y: -9.544150678598468  z: -4.040625924847627}'      Timestamp: 2024-09-19 16:35:53      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.8539397709108307  y: -3.395391030417432  z: 2.7819995670522104}'      Timestamp: 2024-09-19 16:35:54      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.42428777238735904  y: -6.165639224600525  z: -9.6516818476319}'      Timestamp: 2024-09-19 16:35:54      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.07616600185434663  y: -9.912344486828072  z: -5.266707796031291}'      Timestamp: 2024-09-19 16:35:54      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -3.396337859276488  y: -0.5808472207697086  z: -9.283100636637174}'      Timestamp: 2024-09-19 16:35:55      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 3.9582644316776197  y: 6.558944069387046  z: 8.652693984821926}'      Timestamp: 2024-09-19 16:35:55      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.666867647440773  y: -0.5253779932759439  z: 7.576914244244751}'      Timestamp: 2024-09-19 16:35:55      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -7.298699274601052  y: 6.098072135072698  z: -9.687292410382216}'      Timestamp: 2024-09-19 16:35:55      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.510912493808842  y: -3.0807191930730493  z: -4.168093206641819}'      Timestamp: 2024-09-19 16:35:56      Result: 
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.8631742309795047  y: 1.3582910172844382  z: -4.2566408018333135}'      Timestamp: 2024-09-19 16:35:56      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -7.038660578285308  y: -5.282282670448534  z: -0.6324028596205515}'      Timestamp: 2024-09-19 16:35:56      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.250900286922851  y: -5.605490552107197  z: 0.9055072441941814}'      Timestamp: 2024-09-19 16:35:57      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -4.94835044607753  y: -7.00044713367048  z: -3.492832032188238}'      Timestamp: 2024-09-19 16:35:57      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 5.1060950293072676  y: 4.436002541129167  z: 2.3440365067572326}'      Timestamp: 2024-09-19 16:35:57      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -6.182783701606864  y: 7.077251765082245  z: -4.297176604162258}'      Timestamp: 2024-09-19 16:35:57      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -9.770395156069112  y: 0.5499138420801692  z: -6.380257620999288}'      Timestamp: 2024-09-19 16:35:58      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 1.3967584693851425  y: -6.529575734631283  z: 7.153635260007714}'      Timestamp: 2024-09-19 16:35:58      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 0.4924649886546728  y: 6.135835883692955  z: 3.509516529129211}'      Timestamp: 2024-09-19 16:35:58      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.486170634499027  y: -4.917134374745242  z: 8.840660942398408}'      Timestamp: 2024-09-19 16:35:59      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -1.9248184530847965  y: -3.2539738904285276  z: 6.887910242569667}'      Timestamp: 2024-09-19 16:35:59      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.9801316940182865  y: 7.401105663770945  z: -1.7825583851449238}'      Timestamp: 2024-09-19 16:35:59      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.960856994153222  y: -1.1467867892597354  z: 4.4815334282467205}'      Timestamp: 2024-09-19 16:35:59      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.43332693599642624  y: -6.722919835738129  z: 8.595410218943748}'      Timestamp: 2024-09-19 16:36:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 7.221327715528979  y: 8.42792458937052  z: -9.215671407158311}'      Timestamp: 2024-09-19 16:36:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 2.0972151331334636  y: -8.351157428522722  z: -7.2580901734643515}'      Timestamp: 2024-09-19 16:36:00      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: -0.307479859093128  y: 1.9489413502306405  z: 9.101203555018134}'      Timestamp: 2024-09-19 16:36:01      Result: data: true
+
+
+----------------------------------------
+Command: gz service --timeout 300 -s /world/test/set_pose  --reqtype gz.msgs.Pose --reptype gz.msgs.Boolean --req 'name: "left_track_wheel1"position {  x: 4.318756084751348  y: 6.411235053678141  z: 1.504101297261366}'      Timestamp: 2024-09-19 16:36:01      Result: data: true
+
+
+----------------------------------------
